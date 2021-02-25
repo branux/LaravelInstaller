@@ -1,15 +1,19 @@
 {
-    "name": "branux/laravel-installer",
+    "name": "smartervision/laravel-installer",
     "description": "Laravel web installer",
     "license": "MIT",
     "authors": [
         {
-            "name": "Branux Tecnologia",
-            "email": "branu@gmail.com"
+            "name": "Smarter Vision",
+            "email": "smartersvision@gmail.com"
         },
         {
-            "name": "Mauricio Alves",
-            "email": "mauricio@branux.com.br"
+            "name": "Rachid Laasri",
+            "email": "rashidlaasri@gmail.com"
+        },
+        {
+            "name": "Jeremy Kenedy",
+            "email": "jeremykenedy@gmail.com"
         }
     ],
     "require": {

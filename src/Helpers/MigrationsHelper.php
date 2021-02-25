@@ -11,9 +11,9 @@ trait MigrationsHelper
      *
      * @return array Array of migrations name, empty if no migrations are existing
      */
-    public function getMigrations()
+    public function getMigrations($version)
     {
-        $migrations = glob(database_path().DIRECTORY_SEPARATOR.'migrations'.DIRECTORY_SEPARATOR.'*.php');
+        $migrations = glob(database_path().DIRECTORY_SEPARATOR.'migrations'.DIRECTORY_SEPARATOR.$version.DIRECTORY_SEPARATOR.'*.php');
 
         return str_replace('.php', '', $migrations);
     }
